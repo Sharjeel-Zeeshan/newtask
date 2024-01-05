@@ -1,0 +1,61 @@
+.Container{
+    margin:0 auto;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+
+ .modal{
+  display: flex;
+  justify-content: end;
+  width: 100px;
+  height: 100vh;
+ 
+}
+.close{
+  cursor: pointer;
+  border: "none";
+  background: "none";
+  
+} 
+}
+input{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 80px 5px  5px;
+    color: #3c3a3a;
+    
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.asterisk {
+    color: red;
+    margin-left: 5px;
+  }
+  label{
+    margin-bottom: 20px ;
+    color: #3c3a3a;
+  }
+.btn{
+    float: right;
+}
+  .btn-cancel{
+    margin: 5px;
+    padding: 6px 40px;
+    color: #090977;
+    background-color: rgb(183, 204, 248);
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .btn-submit{
+    margin: 5px;
+    padding: 6px 40px;
+   background-color: #090977;
+   color: white;
+   border-radius: 5px;
+   border: none;  
+}

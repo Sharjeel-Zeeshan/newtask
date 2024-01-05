@@ -1,0 +1,13 @@
+.main-button {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    background-color: #090977;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.icon {
+    padding-right: 10px;
+}
